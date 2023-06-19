@@ -1,0 +1,125 @@
+@keyframes fullHight {
+    from{
+        height: 0;
+    }
+
+    to{
+        height: 100%;
+    }
+}
+
+
+.Navbar{
+    position: relative;
+    z-index: 100;
+.above{
+    width: 152px;
+    height: 100px;
+    
+    display:flex;
+    align-items: center;
+    .my-btn{
+        width: 152px;
+        
+    margin-left: auto;
+    margin-top: 1rem;
+    }
+    }
+display: block;
+padding:  1rem 8%;
+.nav-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  .d-none-saconde{
+    display: none;
+  }
+
+    .my-list{
+        margin-right: auto;
+    }
+
+.logo{
+   
+    svg{
+        color: #a259ff;
+    }
+}
+ul{
+    margin-right: 5rem;
+    gap: 6rem;
+li{
+    list-style: none;
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+
+
+a:hover{
+    color: #a259ff;
+}
+}
+}
+}
+.list{
+    display: none;
+}
+}
+
+
+
+@media(max-width:954px){
+    .Navbar .nav-inner{
+        .list{
+            display: inline-block;
+            transition: all .2s linear;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -ms-transition: all .2s linear;
+            -o-transition: all .2s linear;
+        }
+    display: flex;
+    flex-direction: column;
+    .my-list{
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    }
+    ul {
+        gap:2rem;
+        margin: 2rem 0;
+        li{
+        margin-left: 1rem;
+    }
+}
+          .d-none-saconde{
+            transition: all .2s linear;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -ms-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            overflow: hidden;
+            width: 100%;
+display: flex;
+
+          }
+
+          .animate{
+            animation: fullHight .4s ease-in-out forwards;
+            -webkit-animation: fullHight .4s ease-in-out forwards;
+}
+.noneHight{
+    height: 0;
+}
+
+
+          .d-none-first{
+            display: none;
+          }
+
+        }
+}
