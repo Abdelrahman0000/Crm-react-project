@@ -652,7 +652,7 @@ rotate: 180deg;
 }
 
 .deliver{
-    margin-bottom: 30rem;
+    margin-bottom: 60rem;
     .deliver-inner{
     background-image: url('../../images/bac4.png');
     width: 100%;
@@ -898,9 +898,15 @@ h6{
 
 
 .main-home .deliver{
+    margin-bottom: 10rem;
     .deliver-inner{
         background-image: none;
         height: auto;
+        
+    position: relative;
+    background-image: none;
+    max-height: none;
+    
     }
     .no1{
         flex-direction: column;

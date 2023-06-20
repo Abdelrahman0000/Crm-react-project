@@ -1,0 +1,113 @@
+.footer{
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20rem;
+
+.footer-inner{
+    max-width: 711px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 237px));
+    width: 100%;
+    .box {
+width: auto;
+       // grid-column: 1/span 2;
+       max-width: 300px;
+      }
+      
+
+
+}
+.box{
+    h5{
+margin: 4rem 0 1.5rem;
+padding: 15px 0;
+border-top: 1px solid rgba(74, 74, 74, 1);
+border-bottom: 1px solid rgba(74, 74, 74, 1);
+    }
+    p{
+        margin: .9rem 0;
+        color: rgba(255, 255, 255, 1);
+            }
+            .inner-1{
+               
+
+                background-image: linear-gradient(to left, rgba(108, 108, 108, 1), rgba(48, 48, 48, 1));
+                padding         : 1px;
+                margin          : 1.5rem;
+    
+                border-radius: 30px;
+                .inner-2{
+                    
+            background: rgba(48, 48, 48, 1);
+
+          
+            padding: 5px;
+
+            border-radius: 30px;
+
+            position: relative;
+            p{
+                font-size: 17px;
+            }
+                }
+            }
+}
+
+.box-big {min-width: 400px;
+    h5{
+        
+    padding-bottom: 0.6em 0;
+    }
+    .inner-3{
+        
+    background-image: url('../../images/pho.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% ;
+    min-height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    .inner-4{
+        position: absolute;
+        width: 100%;
+        height: 100% !important;
+        top: 0;
+        height: 0;
+        background-color: #d0d0d024;
+        z-index: 10;
+    }
+   
+    }
+    .btn-cov{
+        .my-btn{
+        color: rgba(49, 49, 49, 1) !important;
+        }
+    }
+}
+}
+
+
+@media (max-width: 1189px) {
+    .footer{
+        
+            .no1{
+                flex-direction: column;
+            }
+            .footer-inner{
+                max-width: none;
+
+            }
+        
+    }
+}
+
+
+
+
+
+

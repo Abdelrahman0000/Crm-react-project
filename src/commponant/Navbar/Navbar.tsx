@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import { Link } from 'react-router-dom';
-import {Person , ShopWindow , List , X} from 'react-bootstrap-icons'
+import { List , X} from 'react-bootstrap-icons'
 import './Navbar.css'
 import Logo from '../../images/Logo.png'
 export default function Navbar() {
@@ -23,10 +23,10 @@ const [isClose , setClose]=useState(false)
        <div className="links my-row d-none-first">
         <ul className='my-row'>
           <li>
-            <Link to="/">Marketplace</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Rankings</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
             <Link to="/">Connect a Wallet</Link>

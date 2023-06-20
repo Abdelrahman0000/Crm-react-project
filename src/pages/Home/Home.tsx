@@ -1,7 +1,6 @@
 import React from 'react'
 import "swiper/css";
 import "swiper/css/navigation";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation } from "swiper";
@@ -636,7 +635,6 @@ The Perfect CRM Software: Boost Your Field Sales Team’s Efficiency
 </div>
 
 </section>
-
 
    </div>
   )
