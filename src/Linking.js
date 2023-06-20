@@ -6,6 +6,7 @@ import Footer from './commponant/Footer/Footer.js';
 // Import your components using lazy loading
 const Home = lazy(() => import('./pages/Home/Home.tsx'));
 
+const Error = lazy(() => import('./pages/Error/Error.js'));
 const Blog = lazy(() => import('./pages/Blog/Blog.jsx'));
 
 const Article = lazy(() => import('./pages/Article/Article.jsx'));
@@ -18,7 +19,7 @@ export default function Linking() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          
+          <Route exact path="*" element={<Error />} />
           <Route exact path="/blog" element={<Blog setimg={setimg}/>} />
           <Route exact path="/article" element={<Article img={img}/>} />
         </Routes>

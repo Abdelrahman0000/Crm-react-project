@@ -780,6 +780,11 @@ h6{
             display: none;
         }
     }
+    .main-home .explor .box-container {
+
+        grid-template-columns: repeat(auto-fit, minmax(200px, 375px));
+
+    }
 }
 
 @media (max-width: 1020px) {
