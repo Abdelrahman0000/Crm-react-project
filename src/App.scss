@@ -44,17 +44,17 @@
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    color: yellowgreen;
+    color: rgba(73, 222, 255, 0.72);
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 0 0 5px yellowgreen,
-        0 0 10px yellowgreen,
-        0 0 20px yellowgreen,
-        0 0 30px yellowgreen,
-        0 0 50px yellowgreen;
+    text-shadow: 0 0 5px rgba(73, 222, 255, 0.72),
+        0 0 10px rgba(73, 222, 255, 0.72),
+        0 0 20px rgba(73, 222, 255, 0.72),
+        0 0 30px rgba(73, 222, 255, 0.72),
+        0 0 50px rgba(73, 222, 255, 0.72);
     z-index: 111;
     background-color: var(--background-page);
 }
@@ -62,7 +62,7 @@
     position: absolute;
     width: 50%;
     height: 50%;
-    background-color: yellowgreen;
+    background-color: rgba(73, 222, 255, 0.72);
 }
 .loading-cont .cont span:first-child {
     top: 0;
@@ -101,7 +101,13 @@
         transform: rotate(360deg);
     }
 }
-
+.load-con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @mixin grid($val) {
     display              : grid;

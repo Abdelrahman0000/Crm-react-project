@@ -16,12 +16,12 @@ export default function Linking() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Suspense fallback={<div class="loading-cont">
+      <Suspense fallback={<div className='load-con'> <div class="loading-cont">
         <div class="cont">
             <span></span>
             <span></span>
         </div>
-    </div>}>
+    </div> </div>}>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="*" element={<Error />} />
