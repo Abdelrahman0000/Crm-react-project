@@ -9,7 +9,7 @@ export default function Card({img , setimg}) {
     <div className="card">
       <div className="image"> <img src={img} alt="" />   </div>
 <div className="inner">
-<p> <span >  <Calendar />  </span> April 10, 2022    <span style={{marginLeft: "2rem"}}> <Person />  </span>Admin <span style={{marginLeft: "2rem"}}> <ChatDots />  </span>No Comments   </p>
+<p className='my-p'> <span >  <Calendar />  </span> April 10, 2022    <span style={{marginLeft: "2rem"}}> <Person />  </span>Admin <span style={{marginLeft: "2rem"}}> <ChatDots />  </span>No Comments   </p>
 <h2>6 Tips To Help You Build Your Social Media
 Effeciency & Better</h2>
 

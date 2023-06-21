@@ -46,3 +46,14 @@ width: 100%;
 }
 
 }
+
+
+
+@media (max-width: 500px) {
+    .blog { padding: 1rem;
+        
+        .inner .my-p{
+        font-size: 13px;
+        left: 18px;
+    }
+}}
