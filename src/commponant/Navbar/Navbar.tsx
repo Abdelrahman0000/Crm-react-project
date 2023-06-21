@@ -41,10 +41,10 @@ const [isClose , setClose]=useState(false)
       <div className={`links my-column d-none-saconde ${isClose?`animate`:`noneHight`}`}>
         <ul className='my-column'>
           <li>
-            <Link to="/">Marketplace</Link>
+        <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Rankings</Link>
+            <Link to="/blog">Our  Blog</Link>
           </li>
           <li>
             <Link to="/">Connect a Wallet</Link>
