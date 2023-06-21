@@ -26,7 +26,7 @@ const [isClose , setClose]=useState(false)
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">Our  Blog</Link>
           </li>
           <li>
             <Link to="/">Connect a Wallet</Link>

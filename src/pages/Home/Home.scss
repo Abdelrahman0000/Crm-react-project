@@ -807,8 +807,13 @@ label{
             display: none;
         }
     }
-
-    .Home .Discover {
+.main-home  .explor ,.main-home .trust , .main-home .automation {
+    padding-top: 0;
+    margin: 0;
+        margin-bottom: 8rem;
+}
+    .Home .Discover {margin: 0;
+        margin-bottom: 8rem;
         .on1 {
             flex-direction: column;
         }
@@ -826,7 +831,8 @@ label{
         }
     }
 
-    .main-home .allocate {
+    .main-home .allocate { margin: 0;
+        margin-bottom: 8rem;
         .no1 {
             flex-direction: column;
         }
@@ -837,6 +843,9 @@ label{
 
         .left {
             width: 100%;
+            .my-row{
+                bottom: 0 !important;
+            }
         }
 
         .absol {
@@ -845,7 +854,8 @@ label{
         }
     }
 
-    .main-home .ways {
+    .main-home .ways {margin: 0;
+        margin-bottom: 8rem;
         .no1 {
             flex-direction: column-reverse;
         }
@@ -864,7 +874,8 @@ label{
         }
     }
 
-    .main-home .sell .sell-inner {
+    .main-home .sell{margin: 0;
+        margin-bottom: 8rem; .sell-inner {
         padding: 20px;
         height : 100%;
 
@@ -898,20 +909,22 @@ label{
         .image {
             max-width: 100%;
         }
-    }
+    }}
 
-    .main-home .works .absol {
+    .main-home .works {margin: 0;
+        margin-bottom: 8rem; .absol {
         right : 0px;
         top   : auto;
         width : 30vw;
         height: 76vw;
-    }
+    }}
 
-    .main-home .employe .inner .mySwiper {
+    .main-home .employe{ margin: 0;
+        margin-bottom: 8rem; .inner .mySwiper {
         width : 100%;
         height: auto;
     }
-
+    }
 
     .main-home .deliver {
         margin-bottom: 10rem;
