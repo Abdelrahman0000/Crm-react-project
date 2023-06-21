@@ -3,6 +3,23 @@
     color: rgba(255, 255, 255, 1);
     margin-top: 20rem;
 
+    .share{
+        p{
+            margin-right: 1rem;
+            height: 25.417476654052734px;
+            width: 25.417476654052734px;
+            color: #ffffff;
+           display: flex;
+           justify-content: center;
+            align-items: center;
+           
+           font-size: 19.4174px;
+           line-height: 25.417px;
+            border-radius: 50%;
+           
+        }
+        
+        }
 .footer-inner{
     max-width: 711px;
     display: grid;
@@ -84,6 +101,8 @@ border-bottom: 1px solid rgba(74, 74, 74, 1);
    
     }
     .btn-cov{
+        position: relative;
+        z-index: 1000;
         .my-btn{
         color: rgba(49, 49, 49, 1) !important;
         }
@@ -107,7 +126,25 @@ border-bottom: 1px solid rgba(74, 74, 74, 1);
 }
 
 
+@media (max-width: 480px) {
+    .footer{
 
+.share{
+    p{
+        margin-right: .4rem;
+        height: 19px;
+        width: 19px;
+        color: #ffffff;
+       display: flex;
+       justify-content: center;
+        align-items: center;
+       
+       font-size: 11px;
+       line-height: 17px;
+       
+    }
+    
+    }
 
-
-
+    }
+}

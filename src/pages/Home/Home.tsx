@@ -55,6 +55,23 @@ import BackB from '../../images/back-b.png'
 import Back3 from '../../images/back3.png'
 import Back2 from '../../images/bac2.png'
 import Back from '../../images/bac1.png'
+
+import Tr1 from '../../images/tr1.png'
+import Tr2 from '../../images/tr2.png'
+import Tr3 from '../../images/tr3.png'
+import Tr4 from '../../images/tr4.png'
+import Tr5 from '../../images/tr5.png'
+import Tr6 from '../../images/tr6.png'
+import Tr7 from '../../images/tr7.png'
+import Tr8 from '../../images/tr8.png'
+import Tr9 from '../../images/tr9.png'
+import Tr10 from '../../images/tr10.png'
+import Tr11 from '../../images/tr11.png'
+import Tr12 from '../../images/tr12.png'
+import Tr13 from '../../images/tr13.png'
+
+
+
 import Analyze from '../../images/analyze1.png'
 import Clint from '../../images/Client Logo.png'
 import BackR from '../../images/back-r.png'
@@ -276,8 +293,69 @@ odio feugiat dolor est.</p>
 <h2 style={{textAlign:'center'}}>Trusted by more than 75 million users globally</h2>
     <p style={{textAlign:'center', marginBottom:'4rem',width:'75%',margin:'2rem auto 4rem'}}> Unique and powerful suite of software to run your entire business, brought to you  transform the way you work.</p>
 
-<div className="image">
-    <img src={Clint} alt="" />
+    <div className="all-rows">
+<div className="my-row">
+    <div className="image">
+<img src={Tr1} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr2} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr3} alt="" style={{width:'30%'}}/>
+    </div>
+
+    <div className="image">
+<img src={Tr4} alt="" />
+    </div>
+
+
+</div>
+<div className="my-row">
+    <div className="image">
+<img src={Tr5} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr6} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr7} alt=""  />
+    </div>
+
+    <div className="image">
+<img src={Tr8} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr9} alt="" style={{width:'80%'}} />
+    </div>
+
+</div>
+
+
+<div className="my-row" style={{border:'none'}}>
+    <div className="image">
+<img src={Tr10} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr11} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr12} alt="" />
+    </div>
+
+    <div className="image">
+<img src={Tr13} alt="" />
+    </div>
+
+
+</div>
 </div>
 
 </section>
@@ -475,7 +553,7 @@ The Perfect CRM Software: Boost Your Field Sales Team’s Efficiency
     
     <p>Unique and powerful suite of software to run your entire business, brought to you by a company.</p>
 
-<div className="my-row" style={{justifyContent:'left',gap:'2rem'}}>
+<div className="my-row" style={{justifyContent:'left',gap:'2rem' , position:'relative',bottom:'-75px'}}>
 <div className="image1"> <img src={Apple} alt="" /> </div>
 <div className="image1"> <img src={Goog} alt="" /> </div>
 
@@ -544,9 +622,29 @@ The Perfect CRM Software: Boost Your Field Sales Team’s Efficiency
         </Swiper>
         
 </div>
-<div className="image3">
+<div className="my-row">
 
-<img src={Back3} alt="" />
+<div className="parg">
+    <h2>4.9<span style={{color:'rgba(71, 207, 255, 1)'}}>/</span>5</h2>
+    <p>User Rating</p>
+</div>
+
+<div className="parg">
+    <h2>350<span style={{color:'rgba(255, 181, 69, 1)'}}>K</span>+</h2>
+    <p>Team Members</p>
+</div>
+
+
+<div className="parg">
+    <h2>99<span style={{color:'rgba(71, 221, 86, 1)'}}>+</span></h2>
+    <p>Team Members</p>
+</div>
+
+
+<div className="parg">
+<h2>41<span style={{color:'rgba(255, 84, 84, 1)'}}>M</span></h2>
+    <p>Current Users</p>
+</div>
 
 </div>
 </section>

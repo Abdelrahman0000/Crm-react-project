@@ -3,7 +3,7 @@ import "./Footer.css"
 import Follow from '../../images/Follow.png'
 import { Link } from 'react-router-dom';
 import Logo from '../../images/Logo.png'
-import {CaretUp , CaretDown} from 'react-bootstrap-icons'
+import {CaretUp , CaretDown , Facebook , Instagram , Twitter , Linkedin , Youtube} from 'react-bootstrap-icons'
 
 export default function Footer() {
 
@@ -18,8 +18,12 @@ export default function Footer() {
           <Link to="/"> <div className="my-row" > <img src={Logo} alt="logo" style={{width:'55px',height:'55px'}} /> {' '} <h2 style={{marginLeft:'5px' , color:'#ffffff'}}>PrimeCRM</h2> </div></Link>  
          
       </div> 
-<div className="follow">
-    <img src={Follow} alt="" />
+      <div className='share my-row'>
+<p><Facebook /></p>
+<p><Instagram/></p>
+<p><Twitter/></p>
+ <p><Linkedin/> </p>
+<p><Youtube /> </p>
 </div>
 
 
@@ -73,7 +77,7 @@ port south USA, American
     <div className="inner-4">
     </div>
     <div className="btn-cov">
-    <div className="my-btn" style={{backgroundColor:'rgba(255, 255, 255, 0.75)'}}>Read Now</div>
+    <div className="my-btn" style={{backgroundColor:'rgba(255, 255, 255, 0.75)' , cursor:'pointer'}}>Read Now</div>
     </div>
     
 
